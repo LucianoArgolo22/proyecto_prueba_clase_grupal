@@ -1,0 +1,14 @@
+# Solo versionar el pipeline (landing/bronze/silver/gold + README).
+# Ignorar IA, credenciales, datos y todo lo demás.
+
+*
+!.gitignore
+!README.md
+!landing/
+!landing/**
+!bronze/
+!bronze/**
+!silver/
+!silver/**
+!gold/
+!gold/**

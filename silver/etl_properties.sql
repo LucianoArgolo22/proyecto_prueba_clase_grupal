@@ -1,0 +1,4 @@
+-- ETL: bronze.properties_raw → silver.properties
+-- Spec: silver/SPEC.md
+-- NO EJECUTAR hasta Capa 2.
+-- MERGE ON id. Maps determinísticos de operacion/zona/estado.

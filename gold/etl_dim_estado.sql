@@ -1,0 +1,3 @@
+-- ETL: silver.properties → dim_estado (SCD1)
+-- Spec: gold/SPEC.md
+-- NO EJECUTAR hasta Capa 3.

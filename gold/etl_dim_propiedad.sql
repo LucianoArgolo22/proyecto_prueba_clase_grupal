@@ -1,0 +1,4 @@
+-- ETL: silver.properties → dim_propiedad (SCD2)
+-- Spec: gold/SPEC.md
+-- NO EJECUTAR hasta Capa 3.
+-- sequence_by struct(fecha, id). Join as-of: fecha en [__START_AT, __END_AT).

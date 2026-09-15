@@ -1,0 +1,21 @@
+-- DDL: alquiler_amba.gold.fact_publicacion
+-- Spec: gold/SPEC.md — único fact. Grain = id ganador url+fecha.
+-- NO EJECUTAR hasta Capa 4.
+
+-- CREATE TABLE IF NOT EXISTS alquiler_amba.gold.fact_publicacion (
+--   id BIGINT,
+--   url STRING,
+--   tiempo_sk BIGINT,
+--   zona_sk BIGINT,
+--   estado_sk BIGINT,
+--   operacion_moneda_sk BIGINT,
+--   propiedad_sk BIGINT,
+--   tipo_vendedor_std STRING,
+--   ambientes DOUBLE,
+--   precio DOUBLE,
+--   expensas DOUBLE,
+--   m2_totales DOUBLE,
+--   m2_cubiertos DOUBLE,
+--   precio_por_ambiente DOUBLE,
+--   es_alquiler_analizable BOOLEAN
+-- );

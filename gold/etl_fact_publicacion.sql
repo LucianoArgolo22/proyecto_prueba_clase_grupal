@@ -1,0 +1,5 @@
+-- ETL: silver + dims → fact_publicacion
+-- Spec: gold/SPEC.md
+-- NO EJECUTAR hasta Capa 4.
+-- MERGE ON id. Prohibido agg_segmento / fact_oportunidad.
+-- Oportunidad = vistas con windows, no esta tabla.

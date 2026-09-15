@@ -1,0 +1,3 @@
+-- ETL: calendario generado → dim_tiempo
+-- Spec: gold/SPEC.md
+-- NO EJECUTAR hasta Capa 3. MERGE por fecha. No sale del scrape.

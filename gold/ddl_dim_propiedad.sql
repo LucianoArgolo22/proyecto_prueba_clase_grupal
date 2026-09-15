@@ -1,0 +1,16 @@
+-- DDL: alquiler_amba.gold.dim_propiedad
+-- Spec: gold/SPEC.md — SCD2. BK = url.
+-- NO EJECUTAR hasta Capa 3. No trackear precio/expensas.
+
+-- CREATE TABLE IF NOT EXISTS alquiler_amba.gold.dim_propiedad (
+--   propiedad_sk BIGINT,
+--   url STRING,
+--   zona_std STRING,
+--   ambientes DOUBLE,
+--   estado_std STRING,
+--   m2_totales DOUBLE,
+--   m2_cubiertos DOUBLE,
+--   calle STRING,
+--   ubicacion STRING
+--   -- + __START_AT / __END_AT via Auto CDC SCD2
+-- );
